@@ -1,0 +1,23 @@
+.main-container{
+    border: 2px solid red;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.navigation{
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+}
+.left-side-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    border: 2px solid blue;
+}
+.page-image{
+    height: 250px;
+    width: 500px;
+    
+}
